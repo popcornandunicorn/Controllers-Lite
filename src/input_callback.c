@@ -43,7 +43,7 @@ void input_callback(void *context, IOReturn result, void *sender, IOHIDValueRef 
             g_channels[ch].max_val
         );
 
-        render_uis();
+        render_ui();
     }
 }
 
